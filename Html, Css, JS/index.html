@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+
+        <title>Reproductor de video</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>Reproductor de video</h1>
+            
+            <!-- Buscador de archivos locales -->
+            <input type="file" id="input-file" class="input-file">
+            <br><br>
+
+            <!-- Reproductor de video -->
+
+            <div id="video-container" class="video-container">
+                <video id="video-player" class="video-player" controls></video>
+
+
+                <!-- Botones -->
+
+                <div id="controls" class="controls">
+                <button id="btn-play" class="btn-play">Play</button>
+                <button id="btn-pause" class="btn-pause">Pause</button>
+                <input type="range" id="sld-volume" class="sld-volume" min="0" max="1" step="0.1" value="1">
+                </div>
+            </div>
+
+            
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,63 @@
+h1 {
+    font-size: 50px;
+    color: #007bff; 
+    position: center;
+}
+
+body {
+    background-color: #b1d3f8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    position: center;
+    margin:auto;
+    width: 100%;
+    padding: 40px;
+}
+
+.input-file {
+    cursor: pointer;
+}
+
+.video-container {
+    display: none;
+}
+
+.video-player {
+    width: 100%;
+}
+
+.btn-play, .btn-pause {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.sld-volume {
+    background-color: #fff;
+    color: #fff;
+    width: 50%;
+    border: none;
+    margin-top: 20px 10px;
+    cursor: pointer;
+}
+
+.btn-play:hover, .btn-pause:hover {
+    background-color: #0056b3;
+}
+
+.btn-play:disabled, .btn-pause:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+
+
+
+
